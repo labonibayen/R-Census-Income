@@ -1,7 +1,11 @@
 # About
 Code to build a 3-Dimensional map of the US showing median income by county. The plot is limited to the 50 states and does not include Puerto Rico or any overseas territories.
 
-The main plot, produced in medium_income_data.R, uses rayshader, ggplot2, and tidycensus. The file annotate.R uses Magick to add a title and captions to the final rendered map.
+The main plot, produced in medium_income_data.R, uses rayshader, ggplot2, and tidycensus (The Census.gov API). The file annotate.R uses Magick to add a title and captions to the final rendered map.
+
+# Prerequisites
+
+You must first register for a Census.gov API key: https://api.census.gov/data/key_signup.html
 
 ![test_plot_grid](https://github.com/labonibayen/R-Census-Income/assets/26695981/b1eaca41-8b89-4953-af5d-17881734a5f6)
 
